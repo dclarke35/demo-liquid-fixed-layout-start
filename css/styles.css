@@ -23,11 +23,6 @@ body {
     margin: 0 auto;
 }
 
-.flex-container {
-    display: flex;
-    gap: 2%;
-}
-
 header,
 footer {
     background-color: #115194;
@@ -50,7 +45,6 @@ nav {
 }
 
 .promo {
-    width: calc(96%/3);
     background-color: #b0d892;
     padding: 8rem 16px;
     margin-bottom: 1.5rem;
@@ -60,3 +54,12 @@ footer {
     padding: 3rem;
 }
 
+@media screen and (min-width: 815px) {
+    .flex-container {
+        display: flex;
+        gap: 2%;
+    }
+    .promo {
+        width: calc(96%/3);
+    }
+}
