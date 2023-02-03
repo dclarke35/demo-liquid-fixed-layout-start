@@ -11,6 +11,12 @@ body {
     text-transform: uppercase;
 }
 
+img {
+    /* Make all images resize so they are limited to the max width of their parent container. */
+    max-width: 100%;
+    display: block;
+}
+
 /** Responsive Webdesign Principles **/
 /*
 - fluid containers (to fixed container on wide screens)
