@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+/** Responsive Webdesign Principles **/
+/*
+- fluid containers (to fixed container on wide screens)
+- media queries
+- flexible images
+*/
+.container {
+    /* Max-width will allow the container to be fluid on smaller viewports and then become fixed when it hits 960px wide */
+    max-width: 60rem; 
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    gap: 2%;
+}
+
+header,
+footer {
+    background-color: #115194;
+    margin-bottom: 1.5rem;
+}
+
+header h1 {
+    padding: 3rem;
+}
+
+nav {
+    background-color: #4bb19d;
+    padding: 1rem;
+}
+
+.banner {
+    background-color: #b8bac3;
+    padding: 18rem 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.promo {
+    width: calc(96%/3);
+    background-color: #b0d892;
+    padding: 8rem 16px;
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    padding: 3rem;
+}
+
